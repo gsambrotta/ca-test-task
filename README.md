@@ -3,6 +3,6 @@
 Please implement the following wireframe as HTML page using CSS framefork of
 your choice.
 
-Image here
+![image](https://raw.githubusercontent.com/vs-adm/ca-test-task/master/img.jpg)
 
-Fill the page with JSON data provided into `data.json`.
+Fill the page with JSON data provided in `data.json`.

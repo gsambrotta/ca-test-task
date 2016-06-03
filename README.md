@@ -6,3 +6,4 @@ your choice.
 ![image](https://raw.githubusercontent.com/vs-adm/ca-test-task/master/img.png)
 
 Fill the page with JSON data provided in `data.json`.
+

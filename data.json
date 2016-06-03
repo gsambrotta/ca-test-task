@@ -1,0 +1,25 @@
+{
+  "bg_image_url": "http://localhost:3000/assets/background.jpg",
+  "title": "This is page title",
+  "main_text": "This is main page text block",
+  "pesons": [
+    {
+      "id": "ILYA",
+      "photo_url": "http://localhost:3000/assets/ilya.jpg",
+      "name": "Ilya",
+      "bio": "Some random text"
+    },
+    {
+      "id": "ALEX",
+      "photo_url": "http://localhost:3000/assets/alex.jpg",
+      "name": "Alex",
+      "bio": "Yeat another random text"
+    },
+    {
+      "id": "VASILY",
+      "photo_url": "http://localhost:3000/assets/vasily.jpg",
+      "name": "Vasily",
+      "bio": "Not so random text"
+    }
+  ]
+}

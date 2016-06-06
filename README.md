@@ -11,16 +11,21 @@ Fill the page with JSON data provided in `data.json`.
 ## Usage
 
 `npm install`
+
 `npm start`
+
 Go to `http://localhost:8080/`
 
 To compile scss:
+
 `npm run sass`
 
 To compile and watch the project:
+
 `npm run dev`
 
 Builds files were intentionally commited so app can be view even without compile.
+
 They can be found in css/main.css and dist/bundle.js
 
 

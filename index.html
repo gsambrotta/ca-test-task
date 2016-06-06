@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title> Coursalytics Interview Task </title>
+
+		<link href='css/main.css' rel='stylesheet'>
+	</head>
+	<body>
+	<div id='target' class='flex-container'></div>
+
+
+	<!-- main mustache template -->
+	<script id='main-template' type="x-tmpl-mustache">
+		<header>
+			<img href={{ bg_image_url }} />
+			<h1> {{ title }} </h1>
+		</header>
+
+		<aside>
+			{{#pesons }}
+				<section class='user-info'>
+					<div class='user-info__thumb'>
+						<img href={{photo_url}} alt={{ name }} />
+					</div>
+					<div class='user-info__bio'>
+						<h3>{{ name }}</h3>
+						<p>{{bio}}</p>
+					</div>
+				</section>
+			{{/pesons }}
+		</aside>
+
+		<main>
+			<form class='search-form' method='post' action="example_action_page.php">
+			  <label class='search-form__label'> Search it! </label>
+			  <input class='search-form__input' type="search" name="thesearch">
+			  <input type="submit">
+			</form>
+
+			{{ main_text }}
+		</main>
+	</script>
+
+	<script type="text/javascript" src="build/bundle.js"></script>
+	</body>
+</html>

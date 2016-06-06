@@ -1,0 +1,119 @@
+
+// Base elements
+img {
+	width: 100%;
+}
+
+// Typo
+$default-size: 1.5rem;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 12px;
+  font-size: $default-size;
+  font-family: 'Georgia', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica', sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+h1 {
+	font-size: 28px;
+	font-size: 2.8rem;
+}
+
+h2 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+
+
+// Scheleton
+.flex-container {
+  height: 100%;
+
+  -ms-box-orient: horizontal;
+  display: -ms-flexbox;
+  display: flex;
+
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+header { flex: 1 100%; }
+aside { flex: 2; }
+main { flex: 2; }
+
+
+// Main sections
+
+// Header
+header {
+	width: 100%;
+	min-height: 250px;
+	position: relative;
+	background-color: $placeholder;
+
+	h1 {
+		right: 30px;
+    position: absolute;
+    bottom: 32px;
+	}
+}
+
+
+// Sidebar
+aside {
+	border-right: 1px dashed $main-color;
+	padding: 20px;
+
+	.user-info {
+		margin: 20px 0;
+		display: flex;
+
+		.user-info__thumb {
+			flex: 1;
+			min-height: 70px;
+		}
+
+		.user-info__bio {
+			flex: 3;
+			line-height: 26px;
+		}
+	}
+}
+
+// Main container
+main {
+	padding: 20px;
+
+	.search-form {
+		padding: 20px 0;
+
+		.search-form__label { padding-right: 10px; }
+		.search-form__input {
+			width: 60%;
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+	}
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "ca-test-task",
+  "version": "1.0.0",
+  "description": "interview test for Coursalytics",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "mustache": "^2.2.1"
+  },
+  "devDependencies": {
+    "amd-define-factory-patcher-loader": "^1.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "dev": "webpack-dev-server --progress --colors --watch",
+    "sass": "sass --watch sass/main.scss:css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vs-adm/ca-test-task.git"
+  },
+  "author": "gsambrotta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vs-adm/ca-test-task/issues"
+  },
+  "homepage": "https://github.com/vs-adm/ca-test-task#readme"
+}

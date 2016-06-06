@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  width: 100%; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 12px;
+  font-size: 1.5rem;
+  font-family: 'Georgia', serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica', sans-serif; }
+
+p {
+  text-align: justify; }
+
+h1 {
+  font-size: 28px;
+  font-size: 2.8rem; }
+
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem; }
+
+h3 {
+  font-size: 20px;
+  font-size: 2rem; }
+
+.flex-container {
+  height: 100%;
+  -ms-box-orient: horizontal;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch; }
+
+header {
+  flex: 1 100%; }
+
+aside {
+  flex: 2; }
+
+main {
+  flex: 2; }
+
+header {
+  width: 100%;
+  min-height: 250px;
+  position: relative;
+  background-color: #8A9598; }
+  header h1 {
+    right: 30px;
+    position: absolute;
+    bottom: 32px; }
+
+aside {
+  border-right: 1px dashed #BDCCD0;
+  padding: 20px; }
+  aside .user-info {
+    margin: 20px 0;
+    display: flex; }
+    aside .user-info .user-info__thumb {
+      flex: 1;
+      min-height: 70px; }
+    aside .user-info .user-info__bio {
+      flex: 3;
+      line-height: 26px; }
+
+main {
+  padding: 20px; }
+  main .search-form {
+    padding: 20px 0; }
+    main .search-form .search-form__label {
+      padding-right: 10px; }
+    main .search-form .search-form__input {
+      width: 60%; }
+      main .search-form .search-form__input:focus {
+        outline: none; }
+
+/*# sourceMappingURL=main.css.map */
